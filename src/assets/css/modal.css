@@ -1,0 +1,104 @@
+.modal_container{
+    background: rgba(0,0,0,0.8);
+    padding: 20px 0;
+    /* color: #444444; */
+}
+/* common style */
+.modal_title{
+    border-bottom: 1px solid #ddddf0;
+    margin: 0 -20px;
+    padding: 18px 20px;
+    font-size: 14px;
+    line-height: 14px;
+    box-shadow: 0 1px 3px rgba(235, 238, 245, 0.75);
+}
+.modal_title p i{
+    font-size: 16px;
+    float: right;
+}
+.modal_bg_style{
+    margin: 0 auto;
+    padding: 0 20px;
+    background: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+}
+/* style for .spot_reservation_modal */
+.spot_reservation_modal{
+    width: 960px;
+}
+.modal_button{
+    margin: 0 -20px;
+    padding: 10px 20px;
+    text-align: center;
+    border-top: 1px solid #ddddf0;
+    box-shadow: 0px -1px 3px rgba(235, 238, 245, 0.75);
+}
+/* style for .follow_up_modal */
+.follow_up_modal{
+    width: 960px;
+
+}
+.select_input_block{
+    display: flex;
+    justify-content: flex-start;
+}
+.select_box{
+    width: 150px;
+    margin-right: 10px;
+}
+.input_box{
+    width: 630px;
+    margin-right: 30px;
+}
+.hidden_block.is_hidden{
+    display: none;
+}
+.complain_line{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+.complain_line span{
+    width: 100px;
+    margin-right: 10px;
+}
+.complain_line:nth-child(2) span{
+    line-height: 18px;
+}
+.complain_line .textarea_box{
+    width: 960px;
+}
+/* style for .rule_edit_modal */
+.rule_edit_modal{
+    width: 580px;
+}
+.rule_edit_line{
+    display: flex;
+    justify-content: space-between;
+}
+.edit_line_select{
+    width: 140px;
+}
+.line_right, .line_left{
+    display: flex;
+    justify-content: flex-start;
+}
+.line_right span, .line_left span{
+    margin-right: 4px;
+    line-height: 26px;
+}
+.edit_line_input{
+    width: 84px;
+}
+
+/* style for .task_control_modal */
+.task_control_modal{
+    width: 580px;
+    margin: 0 auto;
+    background: #fff;
+}
+/* style for .email_modal */
+.email_modal{
+    width: 1024px;
+}

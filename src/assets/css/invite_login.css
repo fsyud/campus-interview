@@ -1,0 +1,273 @@
+/* 内容css */
+.primary_btn {
+    background-color: #0096FF !important;
+}
+
+.invite_start_con{
+    background: url(../../static/img/start_bg.jpg) no-repeat;
+    background-size:cover;
+    position:fixed;
+    top:50px;
+    left:0;
+    width:100%;
+    height:100%;
+}
+.con_content{
+    width: 600px;
+    height: 379px;
+    background: #fff;
+    border-radius: 6px;
+    margin: 100px auto 100px;
+    padding-top: 1px;
+}
+.con_logo{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin: 40px auto 0;
+    position: relative;
+    border: 2px solid transparent;
+    transform-style: preserve-3d;
+    transition: 1.2s;
+}
+.con_logo img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.write_img{
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    display: none;
+    
+}
+.nowrite_img{
+    display: block;
+}
+
+.con_font{
+    font-size: 20px;
+    color: #2a96ff;
+    text-align: center;
+    margin-top: 10px;
+}
+.con_input_style{
+    width: 258px;
+    height: 40px;
+    border: 1px solid #2a96ff;
+    border-radius: 6px;
+    margin: 20px auto;
+    line-height: 40px;
+    font-size: 15px;
+}
+.input_icon_blue{
+    display: inline-block;
+    width: 15px;
+    height: 16px;
+    background: url(../../static/img/lock-blue.png) no-repeat;
+    margin: 0 8px;
+    position: relative;
+    top: 2px;
+}
+.con_input{
+    height: 30px;
+    width: 188px;
+    padding-left: 8px;
+    border: 0;
+    border-left: 2px solid #2a96ff; 
+    outline: none;
+    line-height: 30px;
+    position: relative;
+    top: -1px;
+    font-size: 15px;
+}
+input[type='text']::-ms-clear{
+    display: none;
+}
+.input_delete{
+    display: inline-block;
+    width: 13px;
+    height: 12px;
+    background: url(../../static/img/delete.png) no-repeat;
+}
+.input_delete:hover{
+    cursor: pointer;
+}
+.con_btn{
+    width: 260px;
+    height: 40px;
+    border-radius: 6px;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    background: #2a96ff;
+}
+.con_btn:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.con_tip{
+    width: 260px;
+    height: 25px;
+    margin: 20px auto 0;
+    background: #7a7a7a;
+    font-size: 12px;
+    border-radius: 12px;
+    color: #fff;
+    line-height: 25px;
+} 
+.con_content_nowrite .con_input_style{
+    border: 1px solid #e6e6e6;
+}
+.con_content_nowrite .input_icon_blue{
+    background: url(../../static/img/lock_gray.png) no-repeat;
+}
+.con_content_nowrite .con_input{
+    outline: none;
+    border-left: 2px solid #e6e6e6;
+} 
+.con_content_nowrite .input_delete{
+    display: none;
+}
+.con_content_nowrite .con_btn{
+    background: #b4b4b4;
+}
+.con_content_nowrite .con_btn:hover{
+    opacity: 1;
+}
+/* .con_content_nowrite .con_tip{
+    display: none;
+} */
+.write_img_border{
+    border: 2px solid #2a96ff;
+}
+.con_tip i{
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    background: url(../../static/img/warn_icon.png) no-repeat;
+    margin: 0px 5px 0;
+    vertical-align: middle;
+}
+/* 面试结束 */
+.con_content_end{
+    height: 380px;
+    width: 600px;
+    background: #fff;
+    border-radius: 6px;
+    margin: 100px auto 100px;
+    padding-top: 1px;
+}
+.con_warn{
+    font-size: 14px;
+    line-height: 24px;
+    color: #333;
+    text-align: center;
+}
+.con_sun_code{
+    text-align: center;
+    margin-top: 40px;
+}
+.con_warn2{
+    font-size: 12px;
+    line-height: 18px;
+    color: #999;
+    text-align: center;
+}
+.con_logo_end{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 50px auto 0;
+    position: relative;
+}
+.con_logo_end img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+/* 底部 */
+.invite_footer{
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+}
+.invite_footer p{
+    line-height: 20px;
+}
+/* 适配在移动端 */
+.in_phone{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.in_phone .con_content{
+    width: 90%;
+    margin-bottom: 20px;
+}
+.in_phone .invite_start_con{
+    background: url(../../static/img/start_mobile_bg.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.setBorder{
+    animation: setBorder 1s ease-in 1 forwards;
+    -webkit-animation: setBorder 1s ease-in 1 forwards;
+    -moz-animation: setBorder 1s ease-in 1 forwards;
+    -o-animation: setBorder 1s ease-in 1 forwards;
+}
+
+/* 动画 */
+@keyframes setBorder {
+    0%{
+        border: 2px solid transparent;
+    }
+    20%{
+        border-top: 2px solid #2a96ff;
+    }
+    40%{
+        border-right: 2px solid #2a96ff;
+    }
+    60%{
+        border-bottom: 2px solid #2a96ff;
+    }
+    80%{
+        border-left: 2px solid #2a96ff;
+    }
+    100%{
+        border: 2px solid #2a96ff;
+    }
+}
+@-webkit-keyframes setBorder {
+    0%{border: 2px solid transparent;}
+    20%{border-top: 2px solid #2a96ff;}
+    40%{border-right: 2px solid #2a96ff;}
+    60%{border-bottom: 2px solid #2a96ff;}
+    80%{border-left: 2px solid #2a96ff;}
+    100%{border: 2px solid #2a96ff;}
+}
+@-moz-keyframes setBorder {
+    0%{border: 2px solid transparent;}
+    20%{border-top: 2px solid #2a96ff;}
+    40%{border-right: 2px solid #2a96ff;}
+    60%{border-bottom: 2px solid #2a96ff;}
+    80%{border-left: 2px solid #2a96ff;}
+    100%{border: 2px solid #2a96ff;}
+}
+@-o-keyframes setBorder {
+    0%{border: 2px solid transparent;}
+    20%{border-top: 2px solid #2a96ff;}
+    40%{border-right: 2px solid #2a96ff;}
+    60%{border-bottom: 2px solid #2a96ff;}
+    80%{border-left: 2px solid #2a96ff;}
+    100%{border: 2px solid #2a96ff;}
+}

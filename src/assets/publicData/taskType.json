@@ -1,0 +1,122 @@
+[
+    {
+        "taskClass": "1",
+        "taskType": "1",
+        "name": "设计任务"
+    },
+    {
+        "taskClass": "2",
+        "taskType": "10",
+        "name": "宣讲会"
+    },
+    {
+        "taskClass": "2",
+        "taskType": "11",
+        "name": "笔试"
+    },
+    {
+        "taskClass": "2",
+        "taskType": "12",
+        "name": "面试"
+    },
+    {
+        "taskClass": "2",
+        "taskType": "13",
+        "name": "活动"
+    },
+    {
+        "taskClass": "3",
+        "taskType": "20",
+        "name": "宣讲会"
+    },
+    {
+        "taskClass": "3",
+        "taskType": "21",
+        "name": "笔试"
+    },
+    {
+        "taskClass": "3",
+        "taskType": "22",
+        "name": "面试"
+    },
+    {
+        "taskClass": "3",
+        "taskType": "23",
+        "name": "活动"
+    },
+    {
+        "taskClass": "4",
+        "taskType": "30",
+        "name": "就业网"
+    },
+    {
+        "taskClass": "4",
+        "taskType": "31",
+        "name": "BBS普发"
+    },
+    {
+        "taskClass": "4",
+        "taskType": "32",
+        "name": "BBS置顶"
+    },
+    {
+        "taskClass": "4",
+        "taskType": "33",
+        "name": "桃花岛"
+    },
+    {
+        "taskClass": "4",
+        "taskType": "34",
+        "name": "微信群QQ群"
+    },
+    {
+        "taskClass": "4",
+        "taskType": "35",
+        "name": "桃花岛升级版"
+    },
+    {
+        "taskClass": "4",
+        "taskType": "36",
+        "name": "高校微信公众号信息发布（普发）"
+    },
+    {
+        "taskClass": "4",
+        "taskType": "37",
+        "name": "高校微信公众号信息发布（置顶）"
+    },
+    {
+        "taskClass": "4",
+        "taskType": "38",
+        "name": "海报造势"
+    },
+    {
+        "taskClass": "4",
+        "taskType": "39",
+        "name": "专刊派发"
+    },
+    {
+        "taskClass": "4",
+        "taskType": "40",
+        "name": "实体广告"
+    },
+    {
+        "taskClass": "5",
+        "taskType": "100",
+        "name": "标准采购"
+    },
+    {
+        "taskClass": "5",
+        "taskType": "101",
+        "name": "非标准采购"
+    },
+    {
+        "taskClass": "6",
+        "taskType": "110",
+        "name": "城际物流"
+    },
+    {
+        "taskClass": "6",
+        "taskType": "111",
+        "name": "城内物流"
+    }
+]
